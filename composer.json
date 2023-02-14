@@ -38,7 +38,6 @@
         "evenement/evenement": "^2.0|^3.0",
         "facade/ignition-contracts": "^1.0",
         "guzzlehttp/psr7": "^1.5",
-        "illuminate/broadcasting": "^9.0",
         "illuminate/support": "^10.0",
         "pusher/pusher-php-server": "^6.0|^7.0",
         "react/mysql": "^0.5",
