@@ -41,7 +41,6 @@
         "illuminate/broadcasting": "^9.0",
         "illuminate/console": "^9.0",
         "illuminate/http": "^9.0",
-        "illuminate/queue": "^9.0",
         "illuminate/support": "^10.0",
         "pusher/pusher-php-server": "^6.0|^7.0",
         "react/mysql": "^0.5",
