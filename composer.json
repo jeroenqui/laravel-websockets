@@ -29,26 +29,26 @@
         }
     ],
     "require": {
-        "php": "^8.3",
+        "php": "^8.0|^8.1|8.2",
         "cboden/ratchet": "^0.4.4",
         "clue/block-react": "^1.5",
         "clue/reactphp-sqlite": "^1.0",
         "clue/redis-react": "^2.6",
-        "doctrine/dbal": "^3.0",
-        "evenement/evenement": "^3.0",
+        "doctrine/dbal": "^3",
+        "evenement/evenement": "^2.0|^3.0",
         "facade/ignition-contracts": "^1.0",
-        "guzzlehttp/psr7": "^1.5|^2.0",
-        "illuminate/broadcasting": "^11.0",
-        "illuminate/console": "^11.0",
-        "illuminate/http": "^11.0",
-        "illuminate/queue": "^11.0",
-        "illuminate/routing": "^11.0",
-        "illuminate/support": "^11.0",
-        "pusher/pusher-php-server": "^7.0",
+        "guzzlehttp/psr7": "^1.5",
+        "illuminate/broadcasting": "^9.0|^10",
+        "illuminate/console": "^9.0|^10",
+        "illuminate/http": "^9.0|^10",
+        "illuminate/queue": "^9.0|^10",
+        "illuminate/routing": "^9.0|^10",
+        "illuminate/support": "^9.0|^10",
+        "pusher/pusher-php-server": "^6.0|^7.0",
         "react/mysql": "^0.5",
         "react/promise": "^2.8",
-        "symfony/http-kernel": "^7.0",
-        "symfony/psr-http-message-bridge": "^7.0"
+        "symfony/http-kernel": "^5.0|^6.0",
+        "symfony/psr-http-message-bridge": "^1.1|^2.0"
     },
     "require-dev": {
         "clue/buzz-react": "^2.9",
@@ -58,8 +58,7 @@
         "ratchet/pawl": "^0.3.5"
     },
     "suggest": {
-        "ext-pcntl": "Running the server needs pcntl to listen to command signals and soft-shutdown.",
-        "doctrine/dbal": "Required to run database migrations (^2.9|^3.0)."
+        "ext-pcntl": "Running the server needs pcntl to listen to command signals and soft-shutdown."
     },
     "autoload": {
         "psr-4": {
